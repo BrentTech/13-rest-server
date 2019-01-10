@@ -1,13 +1,14 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## REST Server
 
-### Author: Student/Group Name
+### Author: Brent Woodward
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
+[![Build Status](https://www.travis-ci.com/BrentTech/13-rest-server.svg?branch=master)](https://www.travis-ci.com/BrentTech/13-rest-server)
+* [repo](https://github.com/BrentTech/13-rest-server)
+* [travis](https://www.travis-ci.com/BrentTech/13-rest-server)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
 
