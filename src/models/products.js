@@ -4,6 +4,12 @@ const uuid = require('uuid/v4');
 
 const productModel = require('./products-schema.js');
 
+
+/**
+ *
+ *
+ * @class Products
+ */
 class Products {
 
   constructor() {
@@ -11,10 +17,10 @@ class Products {
 
   /**
    *
-   *
+   * Function that processes read all or read one record on database
    * @param {*} _id
-   * @returns
-   * @memberof Products
+   * @returns resolved promise
+   * @memberof Categories
    */
   get(_id) {
     let queryObject = _id ? {_id} : {};
@@ -23,10 +29,10 @@ class Products {
   
   /**
    *
-   *
+   * Function that processes a create to the database
    * @param {*} entry
-   * @returns
-   * @memberof Products
+   * @returns resolved promise
+   * @memberof Categories
    */
   post(entry) {
     entry._id = uuid();
@@ -36,11 +42,11 @@ class Products {
 
   /**
    *
-   *
+   * Function that processes and update to a database record
    * @param {*} _id
-   * @param {*} entry
-   * @returns
-   * @memberof Products
+   * @param {*} record
+   * @returns resolved promise
+   * @memberof Categories
    */
   put(_id, entry) {
     return productModel.update({_id}, entry);
@@ -48,10 +54,10 @@ class Products {
 
   /**
    *
-   *
+   * Function that processes a database delete
    * @param {*} _id
-   * @returns
-   * @memberof Products
+   * @returns resolved promise
+   * @memberof Categories
    */
   delete(_id) {
     return productModel.remove({_id});
