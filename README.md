@@ -9,7 +9,8 @@
 [![Build Status](https://www.travis-ci.com/BrentTech/13-rest-server.svg?branch=master)](https://www.travis-ci.com/BrentTech/13-rest-server)
 * [repo](https://github.com/BrentTech/13-rest-server)
 * [travis](https://www.travis-ci.com/BrentTech/13-rest-server)
-* [back-end](https://peaceful-retreat-70009.herokuapp.com/)
+* [back-end Modular](https://peaceful-retreat-70009.herokuapp.com/)
+* [back-end Monolith](https://thawing-ocean-66744.herokuapp.com/)
 
 #### Documentation
 * [swagger]() (API assignments only)
